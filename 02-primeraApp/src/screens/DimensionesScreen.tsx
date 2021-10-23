@@ -28,6 +28,7 @@ export const DimensionesScreen = () => {
 const styles = StyleSheet.create({
   container: {
     backgroundColor: 'red',
+    width: '100%'
   },
   cajaAzul: {
     backgroundColor: '#5856D6',
@@ -41,6 +42,6 @@ const styles = StyleSheet.create({
   },
   title: {
     fontSize: 30,
-    textAlign: 'center'
+    color: 'yellow'
   }
 });

@@ -12,16 +12,16 @@ export const BoxObjectModelScreen = () => {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: 'red'
+    backgroundColor: 'yellow'
   },
   title: {
-    paddingHorizontal: 100,
+    backgroundColor: 'red',
+    paddingHorizontal: 20,
     paddingVertical: 20,
     marginHorizontal: 20,
-    marginVertical: 50,
+    marginVertical: 20,
     fontSize: 20,
     // width: 250,
-    borderWidth: 10
-    // backgroundColor: 'red'
+    borderWidth: 2,
   }
 });

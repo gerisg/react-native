@@ -33,9 +33,5 @@ const styles = StyleSheet.create({
     textAlign: 'center',
     fontSize: 40,
     top: -15
-  },
-  addBtn: {
-    backgroundColor: 'red',
-    borderRadius: 100
   }
 });

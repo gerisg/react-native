@@ -1,5 +1,13 @@
 import React from 'react';
+
 import { SafeAreaView } from 'react-native';
+import { HolaMundoScreen } from './src/screens/HolaMundoScreen';
+import { CounterScreen } from './src/screens/CounterScreen';
+import { BoxObjectModelScreen } from './src/screens/BoxObjectModelScreen';
+import { DimensionesScreen } from './src/screens/DimensionesScreen';
+import { PositionScreen } from './src/screens/PositionScreen';
+import { FlexScreen } from './src/screens/FlexScreen';
+import TareaScreen from './src/screens/TareaScreen';
 import Tarea1Screen from './src/screens/Tarea1Screen';
 import Tarea2Screen from './src/screens/Tarea2Screen';
 import Tarea3Screen from './src/screens/Tarea3Screen';

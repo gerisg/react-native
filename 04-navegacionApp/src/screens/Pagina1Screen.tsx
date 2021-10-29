@@ -34,13 +34,13 @@ export const Pagina1Screen = ({ navigation }: Props) => {
           onPress={() =>
             navigation.navigate('PersonaScreen', {
               id: 2,
-              name: 'Susana',
+              name: 'Cintia',
             })
           }
           style={{ ...styles.bigBtn, backgroundColor: '#FF9427' }}
         >
           <Icon name="woman-outline" size={30} color={'white'} />
-          <Text style={styles.textBigBtn}>Susana</Text>
+          <Text style={styles.textBigBtn}>Cintia</Text>
         </TouchableOpacity>
       </View>
     </View>

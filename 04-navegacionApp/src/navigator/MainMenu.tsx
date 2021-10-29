@@ -44,7 +44,7 @@ const DrawerContent = ({ navigation }: DrawerContentComponentProps) => {
         </TouchableOpacity>
         <TouchableOpacity
           style={{ ...styles.menuOptionContainer, flexDirection: 'row' }}
-          onPress={() => navigation.navigate('Tabs')}
+          onPress={() => navigation.navigate('SettingsScreen')}
         >
           <Icon name="cog-outline" size={25} />
           <Text style={styles.menuOption}> Ajustes</Text>
